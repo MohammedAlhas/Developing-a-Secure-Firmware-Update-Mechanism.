@@ -1,0 +1,14 @@
+server:
+  port: 4443
+  cert_file: "certs/cert.pem"
+  key_file: "certs/key.pem"
+
+firmware:
+  url: "https://localhost:4443/"
+  firmware_file: "firmware_v2.bin"
+  signature_file: "firmware_v2.bin.sig"
+  log_file: "firmware_update.log"  # Add a log file entry
+
+authentication:
+  username: "admin"
+  password: "password123"
