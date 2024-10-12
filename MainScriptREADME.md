@@ -65,9 +65,12 @@ python firmware_update_manager.py
 
 ### Authenticate: Enter your username and password. The credentials can be one of the following:
 
-Admin: admin, password: password123
-Standard User: user, password: userpass
-Viewer: viewer, password: viewpass
+**Admin**: admin, **password**: password123
+
+**Standard User**: user, **password**: userpass
+
+**Viewer**: viewer, **password**: viewpass
+
 Select an Option: Choose from the menu to check for updates, download firmware, verify firmware, apply firmware, execute all actions, or exit.
 
 ### Functions Explained 
